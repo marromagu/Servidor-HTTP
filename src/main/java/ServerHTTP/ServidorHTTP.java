@@ -85,6 +85,7 @@ class ServidorHTTP {
         //los espacios en blanco que contenga
         peticion = peticion.replaceAll(" ", "");
 
+        System.out.println(peticion);
         //si realmente se trata de una petición 'GET' (que es la única que vamos a
         //implementar en nuestro Servidor)
         if (peticion.startsWith("GET")) {
